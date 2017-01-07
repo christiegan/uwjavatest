@@ -141,13 +141,6 @@ public class Person implements Comparable<Person>{
     return list;
   }
 
-  public static void main(String[] args){
-    List<Person> people = Person.getNewardFamily();
-    Collections.sort(people, new Person.AgeComparator());
-    Person p= new Person("Matthew", 15, 0);
-    boolean x=p.equals(people.get(0));
-    System.out.println("test");
-  }
   // PropertyChangeListener support; you shouldn't need to change any of
   // these two methods or the field
   //
