@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tedneward.example.TestPerson" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-01-07T22:39:54" hostname="DESKTOP-D3KMD8A" time="0.008">
+  <properties/>
+  <testcase name="setAgeToBeNegative" classname="com.tedneward.example.TestPerson" time="0.004"/>
+  <testcase name="exerciseTheBasics" classname="com.tedneward.example.TestPerson" time="0.0"/>
+  <testcase name="exercisePesonEquals" classname="com.tedneward.example.TestPerson" time="0.0"/>
+  <testcase name="useNaturalComparison" classname="com.tedneward.example.TestPerson" time="0.001"/>
+  <testcase name="catchPropertyChange" classname="com.tedneward.example.TestPerson" time="0.001"/>
+  <testcase name="viewReadabletoString" classname="com.tedneward.example.TestPerson" time="0.0"/>
+  <testcase name="useAgeComparator" classname="com.tedneward.example.TestPerson" time="0.001"/>
+  <testcase name="setNameToNull" classname="com.tedneward.example.TestPerson" time="0.0"/>
+  <system-out><![CDATA[[[Person name:Ted age:41 salary:250000.0], [Person name:Charlotte age:43 salary:150000.0], [Person name:Michael age:22 salary:10000.0], [Person name:Matthew age:15 salary:0.0]]
+[[Person name:Ted age:41 salary:250000.0], [Person name:Charlotte age:43 salary:150000.0], [Person name:Michael age:22 salary:10000.0], [Person name:Matthew age:15 salary:0.0]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
